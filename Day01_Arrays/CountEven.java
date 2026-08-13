@@ -1,3 +1,5 @@
+package Day01_Arrays;
+
 class CountEven {
     public static void main(String[] args) {
         int arr[] = {3, 8, 12, 5, 7, 10};

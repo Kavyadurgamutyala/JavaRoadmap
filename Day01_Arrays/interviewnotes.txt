@@ -1,0 +1,313 @@
+JAVA - ARRAYS
+
+What is an Array?
+
+An array is a fixed-size collection of elements having the same data type. Arrays store elements in contiguous memory locations, which allows fast access using indexes.
+
+Example:
+
+Array = [10, 20, 30, 40]
+
+Index = 0, 1, 2, 3
+
+The first element is stored at index 0.
+
+Why do we use Arrays?
+
+Arrays are used when we need to store multiple values of the same type under a single variable name. They provide quick access to elements using indexes and are easy to traverse using loops.
+
+Key Characteristics of Arrays
+
+• Fixed size after creation. • Stores only one data type. • Index starts from 0. • Supports fast access. • Stored in heap memory. • Reference variable is stored in stack memory.
+
+Default Values in Arrays
+
+For int array → 0
+
+For double array → 0.0
+
+For boolean array → false
+
+For String array → null
+
+Advantages of Arrays
+
+Fast access using index.
+Easy traversal.
+Less memory overhead.
+Better performance for fixed-size data.
+
+Disadvantages of Arrays
+
+Fixed size.
+Insertion is costly.
+Deletion is costly.
+Memory wastage if size is overestimated.
+
+Time Complexities
+
+Access Element → O(1)
+
+Search Element → O(n)
+
+Traversal → O(n)
+
+Insertion → O(n)
+
+Deletion → O(n)
+
+Array vs ArrayList
+
+Array:
+
+Fixed size.
+Supports primitive data types.
+Faster than ArrayList.
+
+ArrayList:
+
+Dynamic size.
+Can grow automatically.
+Stores objects.
+Part of Collection Framework.
+
+Interview Questions
+
+What is an Array?
+Why is array access O(1)?
+Difference between Array and ArrayList?
+Can array size be changed after creation?
+Where are arrays stored in memory?
+What are default values of arrays?
+Why does indexing start from 0?
+
+Interview Answer
+
+Why is array access O(1)?
+
+Because Java can directly calculate the memory location of an element using its index. No traversal is required.
+
+One-Line Revision
+
+Array is a fixed-size data structure that provides O(1) access using index-based retrieval.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DSA - HASHMAP
+
+What is HashMap?
+
+HashMap is a data structure that stores information in Key-Value pairs.
+
+Example:
+
+2 → 0
+
+7 → 1
+
+11 → 2
+
+15 → 3
+
+Here:
+
+Key = Number
+
+Value = Index
+
+Why do we use HashMap?
+
+HashMap allows extremely fast searching, insertion, and deletion. It is mainly used when quick lookup is needed.
+
+When to Think of HashMap
+
+If you see any of the following keywords:
+
+• Frequency Count • Duplicates • Fast Lookup • Pair Sum • Counting Occurrences • Anagrams • Index Tracking
+
+HashMap should be considered.
+
+Important Operations
+
+Put → Insert value
+
+Get → Retrieve value
+
+ContainsKey → Check if key exists
+
+Remove → Delete entry
+
+Size → Number of entries
+
+Time Complexity
+
+Insertion → O(1)
+
+Search → O(1)
+
+Deletion → O(1)
+
+Worst Case → O(n)
+
+Average Case → O(1)
+
+Interview Question
+
+Why is HashMap O(1)?
+
+Because HashMap uses hashing. The hash function directly locates the bucket where data is stored, avoiding full traversal.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TWO SUM PROBLEM
+
+Problem Statement
+
+Given an array of integers and a target value, return the indices of two numbers whose sum is equal to the target.
+
+Example
+
+Array = [2, 7, 11, 15]
+
+Target = 9
+
+Output = [0, 1]
+
+Because:
+
+2 + 7 = 9
+
+Brute Force Approach
+
+Compare every element with every other element.
+
+Time Complexity:
+
+O(n²)
+
+Space Complexity:
+
+O(1)
+
+Problem:
+
+Very slow for large arrays.
+
+Optimal HashMap Approach
+
+Store each number and its index inside HashMap.
+
+For each element:
+
+Calculate
+
+Complement = Target - Current Element
+
+Check whether complement already exists in HashMap.
+
+If yes:
+
+Answer found.
+
+If no:
+
+Store current element in HashMap.
+
+Example
+
+Array = [2, 7, 11, 15]
+
+Target = 9
+
+Step 1
+
+Current = 2
+
+Need = 7
+
+HashMap is empty
+
+Store:
+
+2 → 0
+
+Step 2
+
+Current = 7
+
+Need = 2
+
+HashMap already contains 2
+
+Return:
+
+[0, 1]
+
+Why is Two Sum O(n)?
+
+Because:
+
+We iterate through the array only once.
+
+HashMap lookup takes O(1).
+
+Total complexity:
+
+O(n)
+
+Space Complexity:
+
+O(n)
+
+What is Stored Inside HashMap?
+
+Key = Number
+
+Value = Index
+
+Example
+
+2 → 0
+
+7 → 1
+
+11 → 2
+
+15 → 3
+
+Common HashMap Problems
+
+Two Sum
+Contains Duplicate
+Valid Anagram
+Happy Number
+Group Anagrams
+Top K Frequent Elements
+Subarray Sum Equals K
+
+Important Interview Questions
+
+What is HashMap?
+Why is HashMap O(1)?
+What is Collision?
+HashMap vs Hashtable?
+What is hashCode()?
+What is equals()?
+How does HashMap work internally?
+Why are Key and Value stored in HashMap?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+30 SECOND REVISION
+
+ARRAY
+
+• Fixed Size • Same Data Type • O(1) Access • O(n) Search • Stored in Heap Memory • Cannot Grow Dynamically
+
+HASHMAP
+
+• Key-Value Pair • O(1) Lookup • Fast Searching • Frequency Counting • Duplicate Detection • Pair Problems
+
+TWO SUM
+
+• Store Number → Index • Complement = Target − Current Number • Check HashMap • O(n) Time Complexity • O(n) Space Complexity

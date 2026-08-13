@@ -1,3 +1,4 @@
+package Day01_Arrays;
 class CountGreaterThanTen {
     public static void main(String[] args) {
         int arr[] = {4, 15, 9, 22, 10, 31};

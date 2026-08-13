@@ -1,3 +1,4 @@
+package Day01_Arrays;
 class CountOdd {
     public static void main(String[] args) {
         int arr[] = {2, 7, 9, 12, 15, 20};
