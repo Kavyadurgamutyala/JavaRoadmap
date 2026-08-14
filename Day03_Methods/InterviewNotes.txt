@@ -1,0 +1,31 @@
+INTERVIEW QUESTIONS
+
+1. What is a Method?
+
+A method is a reusable block of code that performs a specific task.
+
+2. Why use Methods?
+
+Methods improve reusability, readability, maintainability and reduce code duplication.
+
+3. Difference between Parameter and Argument?
+
+Parameters are variables declared in method definition.
+
+Arguments are values passed during method call.
+
+4. What is void?
+
+Void means the method does not return any value.
+
+5. What is Return Type?
+
+Return type specifies the type of value returned by a method.
+
+6. What is Call Stack?
+
+Call Stack keeps track of method execution and method calls.
+
+7. Is Java Pass By Value or Pass By Reference?
+
+Java is always Pass By Value.

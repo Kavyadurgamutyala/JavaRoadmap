@@ -1,0 +1,40 @@
+CLASS
+
+A class is a blueprint used to create objects.
+
+Real World Example:
+
+Class = Car Blueprint
+
+Object = Actual Car
+
+Why Classes?
+
+1. Better Organisation
+2. Code Reusability
+3. Real World Modelling
+4. Easier Maintenance
+
+Components Of A Class
+
+1. Variables
+2. Methods
+
+Example:
+
+class Student{
+
+    String name;
+    int age;
+
+    void display(){
+
+    }
+}
+
+Important Points
+
+1. Class is a blueprint.
+2. Class itself is not an object.
+3. Objects are created from classes.
+4. A class can contain variables and methods.

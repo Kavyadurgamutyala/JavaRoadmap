@@ -1,0 +1,541 @@
+JAVA STRINGS - COMPLETE INTERVIEW NOTES
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT IS A STRING?
+
+A String is a sequence of characters represented by the String class in Java.
+
+Example:
+
+String name = "Kavya";
+
+Strings are used to store textual data such as names, emails, passwords, messages, API requests, and API responses.
+
+INTERVIEW ANSWER:
+
+A String is a sequence of characters represented by the String class in Java. Strings are immutable objects whose values cannot be changed after creation.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY ARE STRINGS IMPORTANT?
+
+Strings are used in almost every application.
+
+Examples:
+
+• User Names
+
+• Passwords
+
+• Emails
+
+• Database Data
+
+• API Requests
+
+• API Responses
+
+• Product Names
+
+Backend applications continuously process String data.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STRING CREATION
+
+Method 1
+
+String str = "Java";
+
+Method 2
+
+String str = new String("Java");
+
+INTERVIEW QUESTION
+
+Which is better?
+
+ANSWER
+
+String literal is preferred because it uses String Pool and saves memory.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STRING POOL
+
+String Pool is a special memory area inside Heap Memory where String literals are stored.
+
+Example
+
+String s1 = "Java";
+
+String s2 = "Java";
+
+Only one object is created.
+
+Both variables point to the same object.
+
+Benefits
+
+• Saves Memory
+
+• Improves Performance
+
+INTERVIEW ANSWER
+
+String Pool is a special memory area where Java stores String literals to avoid duplicate object creation and improve memory efficiency.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HOW MANY OBJECTS ARE CREATED?
+
+Example 1
+
+String s1 = "Java";
+
+String s2 = "Java";
+
+Objects Created:
+
+1 Object
+
+2 References
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Example 2
+
+String s1 = "Java";
+
+String s2 = new String("Java");
+
+Objects Created:
+
+2 Objects
+
+One Object in String Pool
+
+One Object in Heap Memory
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STRING IMMUTABILITY
+
+Strings are immutable.
+
+Immutable means once a String object is created, its value cannot be changed.
+
+Example
+
+String str = "Java";
+
+str = str + " Backend";
+
+Java creates a new object instead of modifying the old one.
+
+INTERVIEW ANSWER
+
+String is immutable to improve security, thread safety, performance, and String Pool optimization.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IMPORTANT METHODS
+
+length()
+
+Returns total number of characters.
+
+Example
+
+String str = "Java";
+
+Output:
+
+4
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+charAt()
+
+Returns character at a specified index.
+
+Example
+
+String str = "Java";
+
+charAt(0)
+
+Output:
+
+J
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+toUpperCase()
+
+Converts string to uppercase.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+toLowerCase()
+
+Converts string to lowercase.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+contains()
+
+Checks whether a substring exists.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+substring()
+
+Returns part of a string.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+trim()
+
+Removes leading and trailing spaces.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DIFFERENCE BETWEEN == AND equals()
+
+Most Asked Interview Question
+
+==
+
+Compares memory addresses (references)
+
+equals()
+
+Compares actual string values
+
+Example
+
+String s1 = new String("Java");
+
+String s2 = new String("Java");
+
+s1 == s2
+
+Output:
+
+false
+
+s1.equals(s2)
+
+Output:
+
+true
+
+INTERVIEW ANSWER
+
+The == operator compares object references while equals() compares actual string values.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STRINGBUILDER
+
+StringBuilder is a mutable sequence of characters.
+
+Mutable means value can be modified.
+
+Example
+
+StringBuilder sb = new StringBuilder("Java");
+
+sb.append(" Developer");
+
+Output:
+
+Java Developer
+
+Advantages
+
+• Faster than String
+
+• No new object creation for every modification
+
+• Better performance
+
+INTERVIEW ANSWER
+
+StringBuilder is a mutable class used for efficient string manipulation. It is faster than String because it modifies the same object.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STRINGBUFFER
+
+StringBuffer is also a mutable sequence of characters.
+
+Example
+
+StringBuffer sb = new StringBuffer("Java");
+
+sb.append(" Developer");
+
+Output:
+
+Java Developer
+
+INTERVIEW ANSWER
+
+StringBuffer is a mutable class similar to StringBuilder but provides thread safety.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STRINGBUILDER VS STRINGBUFFER
+
+StringBuilder
+
+• Faster
+
+• Not Thread Safe
+
+• Used in Single Thread Applications
+
+StringBuffer
+
+• Slower
+
+• Thread Safe
+
+• Used in Multi Thread Applications
+
+INTERVIEW ANSWER
+
+StringBuilder is faster but not thread-safe. StringBuffer is thread-safe because its methods are synchronized.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PALINDROME
+
+A palindrome is a word, number, or sequence that reads the same forward and backward.
+
+Examples
+
+madam
+
+racecar
+
+level
+
+INTERVIEW ANSWER
+
+A palindrome is a sequence that remains unchanged when read from left to right and right to left.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ANAGRAM
+
+Two strings are anagrams if they contain the same characters with the same frequency.
+
+Examples
+
+listen → silent
+
+race → care
+
+heart → earth
+
+INTERVIEW ANSWER
+
+Two strings are anagrams if they contain the same characters with identical frequencies but arranged in a different order.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ANAGRAM USING SORTING
+
+Logic
+
+Convert strings into character arrays.
+
+Sort both arrays.
+
+Compare arrays.
+
+Example
+
+listen
+
+silent
+
+After Sorting
+
+eilnst
+
+eilnst
+
+Both become equal.
+
+Therefore:
+
+Anagram
+
+Time Complexity:
+
+O(n log n)
+
+Space Complexity:
+
+O(n)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ANAGRAM USING HASHMAP
+
+Store character frequencies.
+
+Example
+
+banana
+
+b → 1
+
+a → 3
+
+n → 2
+
+If frequency maps are equal:
+
+Anagram
+
+Time Complexity:
+
+O(n)
+
+Space Complexity:
+
+O(n)
+
+INTERVIEW ANSWER
+
+HashMap frequency counting is more efficient than sorting because it solves the problem in O(n) time.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TIME COMPLEXITIES
+
+length()
+
+O(1)
+
+charAt()
+
+O(1)
+
+equals()
+
+O(n)
+
+contains()
+
+O(n)
+
+substring()
+
+O(n)
+
+StringBuilder append()
+
+O(1)
+
+Anagram Sorting
+
+O(n log n)
+
+Anagram HashMap
+
+O(n)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MOST ASKED INTERVIEW QUESTIONS
+
+What is String?
+
+Why is String immutable?
+
+What is String Pool?
+
+Difference between == and equals()?
+
+Difference between StringBuilder and StringBuffer?
+
+Why is StringBuilder faster?
+
+What is Palindrome?
+
+What is Anagram?
+
+How does HashMap solve Anagram?
+
+Which Anagram approach is better and why?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ONE LINE REVISION
+
+String is an immutable object in Java used to store a sequence of characters.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+30 SECOND INTERVIEW REVISION
+
+✅ String is an Object
+
+✅ String is Immutable
+
+✅ Stored in String Pool
+
+✅ length() gives size
+
+✅ charAt() returns character
+
+✅ == compares reference
+
+✅ equals() compares value
+
+✅ StringBuilder is Mutable and Fast
+
+✅ StringBuffer is Mutable and Thread Safe
+
+✅ Palindrome = Same Forward and Backward
+
+✅ Anagram = Same Characters + Same Frequency
+
+✅ Sorting Anagram = O(n log n)
+
+✅ HashMap Anagram = O(n)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROGRAMS COMPLETED
+
+✅ StringLength
+
+✅ PrintCharacters
+
+✅ FirstCharacter
+
+✅ LastCharacter
+
+✅ StringReverse
+
+✅ CountVowels
+
+✅ Palindrome
+
+✅ Anagram (Sorting)
+
+✅ Anagram (HashMap)
+
+✅ StringPoolDemo
+
+✅ StringBuilderDemo
+
+✅ StringBufferDemo

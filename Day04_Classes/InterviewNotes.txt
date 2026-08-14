@@ -1,0 +1,29 @@
+INTERVIEW QUESTIONS
+
+1. What is a Class?
+
+A class is a blueprint used to create objects. It contains variables and methods that define properties and behaviours.
+
+2. What is an Object?
+
+An object is an instance of a class.
+
+3. What are Instance Variables?
+
+Variables declared inside a class and outside methods are called instance variables.
+
+4. What does the new keyword do?
+
+The new keyword creates an object in memory and returns its reference.
+
+5. Can a class contain methods?
+
+Yes. A class can contain variables and methods.
+
+6. Difference between Class and Object?
+
+Class:
+Blueprint
+
+Object:
+Actual instance created from the blueprint.

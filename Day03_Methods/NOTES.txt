@@ -1,0 +1,33 @@
+METHODS
+
+Method is a reusable block of code that performs a specific task.
+
+Benefits:
+1. Reusability
+2. Readability
+3. Maintainability
+4. Modularity
+
+Method Syntax:
+
+accessModifier returnType methodName(parameters){
+
+}
+
+Example:
+
+public static int add(int a,int b){
+    return a+b;
+}
+
+Types of Methods:
+
+1. No Parameter No Return
+
+2. Parameter No Return
+
+3. No Parameter Return
+
+4. Parameter Return
+
+Java is always Pass By Value.
