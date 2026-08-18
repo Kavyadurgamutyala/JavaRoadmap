@@ -1,0 +1,91 @@
+ENCAPSULATION
+
+What is Encapsulation?
+
+Encapsulation is the process of binding data and methods together into a single unit and protecting data from direct access.
+
+Simple Definition:
+
+Data Hiding
+
+Why Encapsulation?
+
+1. Protects Data
+2. Improves Security
+3. Better Control Over Variables
+4. Improves Maintainability
+5. Follows Object Oriented Principles
+
+How Encapsulation Is Achieved?
+
+1. Declare variables as private
+2. Use Getter Methods
+3. Use Setter Methods
+
+Example:
+
+private String name;
+
+Getter
+
+public String getName(){
+    return name;
+}
+
+Setter
+
+public void setName(String name){
+    this.name = name;
+}
+
+What is a Getter?
+
+Getter is used to read data.
+
+Example:
+
+getName()
+
+What is a Setter?
+
+Setter is used to modify data.
+
+Example:
+
+setName()
+
+Why Use Private Variables?
+
+Without Private:
+
+student.age = -100;
+
+Anyone can change data.
+
+With Private:
+
+private int age;
+
+Direct access is restricted.
+
+Access is controlled using getters and setters.
+
+Advantages
+
+1. Data Hiding
+2. Data Security
+3. Better Code Control
+4. Reusability
+5. Maintainability
+
+Programs Completed
+
+✅ Student.java
+
+✅ Employee.java
+
+✅ Mobile.java
+
+One Line Revision
+
+Encapsulation is the process of hiding data using private variables and providing access through getters and setters.

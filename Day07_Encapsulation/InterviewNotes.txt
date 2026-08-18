@@ -1,0 +1,83 @@
+INTERVIEW QUESTIONS
+
+1. What is Encapsulation?
+
+Encapsulation is the process of binding data and methods together into a single unit and hiding data using private access modifiers.
+
+2. Why Do We Use Encapsulation?
+
+To protect data and provide controlled access using getters and setters.
+
+3. How Is Encapsulation Achieved?
+
+By using:
+- private variables
+- getter methods
+- setter methods
+
+4. What is a Getter?
+
+A getter method is used to read the value of a private variable.
+
+Example:
+
+public String getName(){
+    return name;
+}
+
+5. What is a Setter?
+
+A setter method is used to modify the value of a private variable.
+
+Example:
+
+public void setName(String name){
+    this.name = name;
+}
+
+6. Why Are Variables Made Private?
+
+To prevent direct access and protect data.
+
+7. What Is Data Hiding?
+
+Restricting direct access to variables using private access modifiers.
+
+8. Difference Between Getter and Setter?
+
+Getter:
+- Reads data
+- Returns value
+
+Setter:
+- Updates data
+- Does not return value
+
+9. Which Access Modifier Is Mostly Used In Encapsulation?
+
+private
+
+10. What Are The Benefits Of Encapsulation?
+
+- Security
+- Data Hiding
+- Better Maintainability
+- Better Control Over Data
+
+30 SECOND REVISION
+
+✅ Encapsulation = Data Hiding
+
+✅ Variables are private
+
+✅ Getter reads data
+
+✅ Setter updates data
+
+✅ Protects data
+
+✅ Improves security
+
+✅ Improves maintainability
+
+✅ One of the main OOP principles
