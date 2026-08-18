@@ -1,0 +1,79 @@
+INTERVIEW QUESTIONS
+
+1. What is a Class?
+
+A class is a blueprint used to create objects. It contains variables and methods.
+
+2. What is an Object?
+
+An object is an instance of a class.
+
+3. Difference Between Class and Object?
+
+Class:
+Blueprint or Template.
+
+Object:
+Actual instance created from the class.
+
+Example:
+
+Class : Car
+
+Objects : BMW, Audi, Mercedes
+
+4. What does the new keyword do?
+
+The new keyword creates an object in memory and returns its reference.
+
+5. What is an Object Reference?
+
+A variable that stores the address/reference of an object.
+
+Example:
+
+Student s = new Student();
+
+s is the object reference.
+
+6. What are Instance Variables?
+
+Variables declared inside a class and outside methods are called instance variables.
+
+Example:
+
+String name;
+
+int age;
+
+7. How Do You Access Variables Of An Object?
+
+Using Dot Operator.
+
+Example:
+
+s.name = "Kavya";
+
+8. How Do You Call Methods Using An Object?
+
+Using Dot Operator.
+
+Example:
+
+s.display();
+
+9. Can One Class Create Multiple Objects?
+
+Yes.
+
+Example:
+
+Student s1 = new Student();
+
+Student s2 = new Student();
+
+Student s3 = new Student();
+
+10. What is the Dot Operator?
+
+The dot operator is used to access variables and methods through an object reference.

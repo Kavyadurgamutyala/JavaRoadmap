@@ -1,0 +1,102 @@
+INTERVIEW QUESTIONS
+
+1. What is a Constructor?
+
+A constructor is a special method used to initialize objects. It is automatically called when an object is created.
+
+2. Why do we use Constructors?
+
+Constructors help initialize object data during object creation and make code cleaner.
+
+3. What are the characteristics of a Constructor?
+
+- Same name as class
+- No return type
+- Automatically invoked
+- Used for initialization
+
+4. What is a Default Constructor?
+
+A constructor without parameters.
+
+Example:
+
+Student(){
+
+}
+
+5. What is a Parameterized Constructor?
+
+A constructor that accepts values through parameters.
+
+Example:
+
+Student(String name,int age){
+
+}
+
+6. What is the this keyword?
+
+this refers to the current object.
+
+Example:
+
+this.name = name;
+
+7. Can a Constructor have a return type?
+
+No.
+
+Constructors never have a return type.
+
+Wrong:
+
+void Student(){
+
+}
+
+Correct:
+
+Student(){
+
+}
+
+8. Can a Constructor be static?
+
+No.
+
+Constructors cannot be static.
+
+9. When is a Constructor called?
+
+A constructor is called automatically when an object is created using the new keyword.
+
+10. Difference between Constructor and Method?
+
+Constructor:
+- Same name as class
+- No return type
+- Automatically called
+
+Method:
+- Can have any name
+- Has return type or void
+- Called manually
+
+30 SECOND REVISION
+
+✅ Constructor initializes objects
+
+✅ Same name as class
+
+✅ No return type
+
+✅ Automatically called
+
+✅ Default Constructor = No Parameters
+
+✅ Parameterized Constructor = Accepts Values
+
+✅ this refers to current object
+
+✅ Constructor ≠ Method

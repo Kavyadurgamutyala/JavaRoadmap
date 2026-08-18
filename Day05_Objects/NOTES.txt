@@ -1,0 +1,96 @@
+DAY 5 - OBJECTS
+
+WHAT IS AN OBJECT?
+
+An object is an instance of a class.
+
+Example:
+
+Class = Student
+
+Object = Kavya
+
+A class is a blueprint whereas an object is the actual entity created from that blueprint.
+
+WHY DO WE NEED OBJECTS?
+
+1. Store Data
+2. Access Variables
+3. Call Methods
+4. Represent Real World Entities
+
+OBJECT CREATION
+
+Syntax:
+
+ClassName objectName = new ClassName();
+
+Example:
+
+Student s = new Student();
+
+WHERE
+
+Student -> Class Name
+
+s -> Object Reference
+
+new Student() -> Creates Object
+
+ACCESSING VARIABLES
+
+Syntax:
+
+objectReference.variableName
+
+Example:
+
+s.name = "Kavya";
+
+s.age = 22;
+
+ACCESSING METHODS
+
+Syntax:
+
+objectReference.methodName();
+
+Example:
+
+s.display();
+
+INSTANCE VARIABLES
+
+Variables declared inside class and outside methods are called instance variables.
+
+Example:
+
+String name;
+
+int age;
+
+DOT OPERATOR
+
+The dot operator (.) is used to access variables and methods using an object reference.
+
+Example:
+
+s.name
+
+s.display()
+
+NEW KEYWORD
+
+The new keyword creates an object in memory and returns its reference.
+
+ONE CLASS CAN CREATE MULTIPLE OBJECTS
+
+Example:
+
+Student s1 = new Student();
+
+Student s2 = new Student();
+
+Student s3 = new Student();
+
+All are different objects created from the same class.
