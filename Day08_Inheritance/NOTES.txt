@@ -1,0 +1,110 @@
+INHERITANCE
+
+What is Inheritance?
+
+Inheritance is the process of acquiring properties and methods from one class to another class.
+
+Simple Definition:
+
+Child class inherits properties and methods of parent class.
+
+Why Use Inheritance?
+
+1. Code Reusability
+2. Less Code Duplication
+3. Easy Maintenance
+4. Better Relationship Between Classes
+
+Parent Class
+
+Also called:
+
+1. Super Class
+2. Base Class
+
+Child Class
+
+Also called:
+
+1. Sub Class
+2. Derived Class
+
+extends Keyword
+
+Used to inherit.
+
+Example:
+
+class Vehicle{
+
+}
+
+class Car extends Vehicle{
+
+}
+
+What Child Class Gets?
+
+1. Variables
+2. Methods
+
+Example:
+
+Vehicle
+
+brand
+start()
+
+Car automatically gets:
+
+brand
+start()
+
+Types of Inheritance
+
+1. Single Inheritance
+
+Vehicle
+   |
+   v
+  Car
+
+2. Multilevel Inheritance
+
+Vehicle
+   |
+   v
+  Car
+   |
+   v
+SportsCar
+
+3. Hierarchical Inheritance
+
+      Vehicle
+      /     \
+     /       \
+   Car      Bike
+
+4. Multiple Inheritance
+
+Not supported using classes in Java.
+
+Advantages
+
+1. Reusability
+2. Maintainability
+3. Less Code
+4. Easy Development
+
+Programs Completed
+
+✅ VehicleCar.java
+
+✅ AnimalDog.java
+
+✅ PersonStudent.java
+
+One Line Revision
+
+Inheritance allows one class to acquire properties and methods from another class using the extends keyword.

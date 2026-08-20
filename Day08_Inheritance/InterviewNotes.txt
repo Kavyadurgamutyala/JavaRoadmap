@@ -1,0 +1,92 @@
+INTERVIEW QUESTIONS
+
+1. What is Inheritance?
+
+Inheritance is the process of acquiring properties and methods of one class into another class.
+
+2. Why Do We Use Inheritance?
+
+Inheritance improves code reusability, reduces duplication and makes maintenance easier.
+
+3. Which Keyword Is Used For Inheritance?
+
+extends
+
+Example:
+
+class Car extends Vehicle{
+
+}
+
+4. What Is a Parent Class?
+
+A parent class is the class whose properties and methods are inherited.
+
+Also called:
+
+Super Class
+Base Class
+
+5. What Is a Child Class?
+
+A child class is the class that inherits features from another class.
+
+Also called:
+
+Sub Class
+Derived Class
+
+6. What Does A Child Class Inherit?
+
+Variables and methods of the parent class.
+
+7. Types Of Inheritance?
+
+1. Single
+2. Multilevel
+3. Hierarchical
+
+8. Does Java Support Multiple Inheritance Using Classes?
+
+No.
+
+Java does not support multiple inheritance with classes.
+
+9. What Are The Advantages Of Inheritance?
+
+- Reusability
+- Less Code Duplication
+- Better Maintenance
+- Easy Development
+
+10. Give a Real Life Example Of Inheritance.
+
+Vehicle -> Car
+
+Animal -> Dog
+
+Person -> Student
+
+30 SECOND REVISION
+
+✅ Inheritance = Acquiring properties and methods
+
+✅ extends keyword is used
+
+✅ Parent Class = Super Class
+
+✅ Child Class = Sub Class
+
+✅ Child gets variables and methods
+
+✅ Improves Reusability
+
+✅ Reduces Code Duplication
+
+✅ Single Inheritance Supported
+
+✅ Multilevel Inheritance Supported
+
+✅ Hierarchical Inheritance Supported
+
+✅ Multiple Inheritance Not Supported Using Classes
