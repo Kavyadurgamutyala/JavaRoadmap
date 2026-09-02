@@ -1,0 +1,85 @@
+POLYMORPHISM
+
+What is Polymorphism?
+
+Polymorphism means one thing can exist in many forms.
+
+Simple Definition:
+
+Same method name with different behaviour.
+
+Types of Polymorphism
+
+1. Compile Time Polymorphism
+
+2. Runtime Polymorphism
+
+Compile Time Polymorphism
+
+Also called:
+
+Method Overloading
+
+Definition:
+
+Having multiple methods with the same name but different parameter lists.
+
+Example:
+
+add(int a, int b)
+
+add(int a, int b, int c)
+
+Advantages
+
+1. Improves Readability
+2. Code Reusability
+3. Flexibility
+
+Runtime Polymorphism
+
+Also called:
+
+Method Overriding
+
+Definition:
+
+A child class provides its own implementation of a parent class method.
+
+Example:
+
+Animal -> sound()
+
+Dog -> sound()
+
+Advantages
+
+1. Runtime Flexibility
+2. Improved Reusability
+3. Better Design
+
+Difference Between Overloading and Overriding
+
+Overloading
+
+- Same method name
+- Different parameters
+- Same class
+- Compile Time Polymorphism
+
+Overriding
+
+- Same method name
+- Same parameters
+- Parent and Child class
+- Runtime Polymorphism
+
+Programs Completed
+
+✅ Calculator.java
+
+✅ AnimalDog.java
+
+One Line Revision
+
+Polymorphism allows the same method name to exhibit different behaviours.

@@ -1,0 +1,88 @@
+INTERVIEW QUESTIONS
+
+1. What is Polymorphism?
+
+Polymorphism means one object or method can take many forms.
+
+2. What are the types of Polymorphism in Java?
+
+1. Compile Time Polymorphism
+
+2. Runtime Polymorphism
+
+3. What is Method Overloading?
+
+Method Overloading occurs when multiple methods have the same name but different parameter lists.
+
+Example:
+
+add(int a, int b)
+
+add(int a, int b, int c)
+
+4. What is Method Overriding?
+
+Method Overriding occurs when a child class provides its own implementation of a parent class method.
+
+5. Method Overloading belongs to which type of Polymorphism?
+
+Compile Time Polymorphism.
+
+6. Method Overriding belongs to which type of Polymorphism?
+
+Runtime Polymorphism.
+
+7. Difference between Method Overloading and Method Overriding?
+
+Overloading:
+- Different parameters
+- Same class
+- Compile Time
+
+Overriding:
+- Same parameters
+- Parent and Child classes
+- Runtime
+
+8. Can methods have the same name?
+
+Yes.
+
+Method Overloading allows methods to have the same name with different parameters.
+
+9. Give a real-world example of Polymorphism.
+
+Person can be:
+- Student
+- Employee
+- Teacher
+
+One person, many forms.
+
+10. What are the advantages of Polymorphism?
+
+- Reusability
+- Flexibility
+- Maintainability
+- Better Design
+
+30 SECOND REVISION
+
+✅ Polymorphism = One Thing Many Forms
+
+✅ Two Types
+
+   - Overloading
+   - Overriding
+
+✅ Overloading = Compile Time
+
+✅ Overriding = Runtime
+
+✅ Overloading = Different Parameters
+
+✅ Overriding = Same Parameters
+
+✅ Improves Flexibility
+
+✅ Improves Reusability
