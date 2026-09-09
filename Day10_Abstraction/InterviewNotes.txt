@@ -1,0 +1,93 @@
+INTERVIEW QUESTIONS
+
+1. What is Abstraction?
+
+Abstraction is the process of hiding implementation details and showing only essential functionality.
+
+2. Why Do We Use Abstraction?
+
+To reduce complexity and hide unnecessary implementation details from users.
+
+3. How Is Abstraction Achieved In Java?
+
+1. Abstract Classes
+2. Interfaces
+
+4. What Is An Abstract Class?
+
+A class declared using the abstract keyword.
+
+Example:
+
+abstract class Animal{
+
+}
+
+5. What Is An Abstract Method?
+
+A method without implementation.
+
+Example:
+
+abstract void sound();
+
+6. Can We Create An Object Of An Abstract Class?
+
+No.
+
+Example:
+
+Animal a = new Animal();
+
+Not Allowed.
+
+7. Can An Abstract Class Contain Normal Methods?
+
+Yes.
+
+Abstract classes can have:
+
+- Abstract Methods
+- Normal Methods
+
+8. Why Must A Child Class Implement Abstract Methods?
+
+Because abstract methods do not have implementation in the parent class.
+
+9. Difference Between Abstraction And Encapsulation?
+
+Abstraction:
+Hides implementation.
+
+Encapsulation:
+Hides data.
+
+10. Give A Real Life Example Of Abstraction.
+
+ATM Machine
+
+User sees:
+
+Withdraw
+Deposit
+Balance
+
+Internal banking process is hidden.
+
+30 SECOND REVISION
+
+✅ Abstraction = Hide Implementation
+
+✅ Achieved Using Abstract Class and Interface
+
+✅ Abstract Class Uses abstract Keyword
+
+✅ Abstract Method Has No Body
+
+✅ Abstract Class Cannot Be Instantiated
+
+✅ Child Class Must Implement Abstract Methods
+
+✅ Improves Maintainability
+
+✅ Reduces Complexity

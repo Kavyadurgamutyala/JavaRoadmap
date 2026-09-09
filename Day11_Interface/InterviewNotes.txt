@@ -1,0 +1,98 @@
+INTERVIEW QUESTIONS
+
+1. What is an Interface?
+
+An interface is a blueprint of a class that contains abstract methods and provides abstraction.
+
+2. Which keyword is used to implement an interface?
+
+implements
+
+Example:
+
+class Car implements Vehicle {
+
+}
+
+3. Can we create an object of an interface?
+
+No.
+
+Example:
+
+Vehicle v = new Vehicle();
+
+Not Allowed.
+
+4. Are interface methods abstract?
+
+Yes.
+
+Interface methods are public and abstract by default.
+
+Example:
+
+void start();
+
+Internally:
+
+public abstract void start();
+
+5. Are interface methods public?
+
+Yes.
+
+They are public by default.
+
+6. Difference Between Abstract Class and Interface?
+
+Abstract Class:
+- Can have abstract methods
+- Can have normal methods
+
+Interface:
+- Methods are abstract by default
+- Provides complete abstraction
+
+7. Why Do We Use Interfaces?
+
+- Abstraction
+- Flexibility
+- Reusability
+- Multiple Inheritance
+
+8. Can a Class Implement Multiple Interfaces?
+
+Yes.
+
+Example:
+
+class Car implements Vehicle, Engine {
+
+}
+
+9. Which keyword is used in Inheritance?
+
+extends
+
+10. Which keyword is used in Interface?
+
+implements
+
+30 SECOND REVISION
+
+✅ Interface = Complete Abstraction
+
+✅ implements Keyword
+
+✅ Cannot Create Interface Object
+
+✅ Methods are Abstract by Default
+
+✅ Methods are Public by Default
+
+✅ Child Class Must Implement Methods
+
+✅ Supports Multiple Inheritance
+
+✅ Improves Flexibility

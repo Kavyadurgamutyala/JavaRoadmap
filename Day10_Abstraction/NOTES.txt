@@ -1,0 +1,89 @@
+ABSTRACTION
+
+What is Abstraction?
+
+Abstraction is the process of hiding implementation details and showing only essential functionality.
+
+Simple Definition:
+
+Hide Implementation
+Show Functionality
+
+Real Life Example
+
+ATM Machine
+
+Visible:
+
+Withdraw
+Deposit
+Check Balance
+
+Hidden:
+
+Database Operations
+Server Logic
+Internal Processing
+
+How is Abstraction Achieved?
+
+1. Abstract Class
+2. Interface
+
+Abstract Class
+
+A class declared using the abstract keyword.
+
+Example:
+
+abstract class Animal{
+
+}
+
+Abstract Method
+
+A method declared without implementation.
+
+Example:
+
+abstract void sound();
+
+Rules
+
+1. Abstract class cannot be instantiated.
+
+Wrong:
+
+Animal a = new Animal();
+
+2. Child class must implement abstract methods.
+
+Example:
+
+class Dog extends Animal{
+
+    void sound(){
+        System.out.println("Bark");
+    }
+
+}
+
+Advantages
+
+1. Data Security
+2. Better Design
+3. Hides Complexity
+4. Improves Maintainability
+5. Supports Code Reusability
+
+Programs Completed
+
+✅ AnimalDog.java
+
+✅ ShapeCircle.java
+
+✅ VehicleCar.java
+
+One Line Revision
+
+Abstraction hides implementation details and exposes only essential functionality.

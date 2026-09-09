@@ -1,0 +1,81 @@
+INTERFACE
+
+What is an Interface?
+
+An interface is a blueprint of a class that contains abstract methods.
+
+Simple Definition:
+
+Interface provides complete abstraction.
+
+Why Do We Use Interfaces?
+
+1. Achieve Abstraction
+2. Define Common Rules
+3. Improve Flexibility
+4. Support Multiple Inheritance
+
+Syntax
+
+interface Vehicle {
+
+    void start();
+
+}
+
+Implementation
+
+class Car implements Vehicle {
+
+    public void start() {
+
+    }
+
+}
+
+Important Keyword
+
+implements
+
+Used to implement an interface.
+
+Rules
+
+1. Interface cannot be instantiated.
+
+Wrong:
+
+Vehicle v = new Vehicle();
+
+2. Implementing class must implement all interface methods.
+
+3. Interface methods are public and abstract by default.
+
+4. Interface variables are public static final by default.
+
+Interface Method
+
+void start();
+
+Java treats it as:
+
+public abstract void start();
+
+Advantages
+
+1. Loose Coupling
+2. Better Flexibility
+3. Reusability
+4. Supports Multiple Inheritance
+
+Programs Completed
+
+✅ VehicleCar.java
+
+✅ AnimalDog.java
+
+✅ ShapeCircle.java
+
+One Line Revision
+
+An interface is a blueprint that provides complete abstraction and is implemented using the implements keyword.
