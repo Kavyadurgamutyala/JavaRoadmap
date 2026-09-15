@@ -1,0 +1,61 @@
+INTERVIEW QUESTIONS
+
+1. What is Collection?
+
+A collection is a framework used to store and manipulate groups of objects.
+
+2. Why Collections over Arrays?
+
+Arrays have fixed size.
+
+Collections grow dynamically.
+
+3. What is ArrayList?
+
+ArrayList is a resizable array implementation of the List interface.
+
+4. Which package contains ArrayList?
+
+java.util
+
+5. How do you add elements to an ArrayList?
+
+add()
+
+6. How do you access elements?
+
+get(index)
+
+7. How do you remove elements?
+
+remove(index)
+
+8. How do you get size?
+
+size()
+
+9. Does ArrayList allow duplicates?
+
+Yes.
+
+10. Does ArrayList maintain insertion order?
+
+Yes.
+
+30 SECOND REVISION
+
+✅ Collection = Group of Objects
+
+✅ ArrayList = Dynamic Array
+
+✅ add()
+
+✅ get()
+
+✅ remove()
+
+✅ size()
+
+✅ Allows Duplicates
+
+✅ Maintains Order

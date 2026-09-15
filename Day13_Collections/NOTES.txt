@@ -1,0 +1,81 @@
+COLLECTIONS
+
+What is Collection?
+
+A collection is a framework used to store and manipulate groups of objects dynamically.
+
+Why Collection?
+
+Arrays have fixed size.
+
+Collections can grow dynamically.
+
+List
+
+Stores ordered elements.
+
+Allows duplicates.
+
+Example:
+
+ArrayList
+LinkedList
+
+ArrayList
+
+ArrayList is a resizable array implementation.
+
+Syntax:
+
+ArrayList<String> list = new ArrayList<>();
+
+Methods
+
+add()
+
+Used to add elements.
+
+Example:
+
+list.add("Kavya");
+
+get()
+
+Used to retrieve an element.
+
+Example:
+
+list.get(0);
+
+remove()
+
+Used to remove an element.
+
+Example:
+
+list.remove(0);
+
+size()
+
+Returns the number of elements.
+
+Example:
+
+list.size();
+
+Advantages
+
+1. Dynamic Size
+2. Easy Data Manipulation
+3. Flexible
+4. Fast Access
+
+Programs Completed
+
+✅ ArrayListDemo.java
+✅ StudentList.java
+✅ IntegerList.java
+
+One Line Revision
+
+ArrayList is a dynamically resizable implementation of the List interface.
