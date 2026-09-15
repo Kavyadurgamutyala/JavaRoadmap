@@ -1,0 +1,65 @@
+INTERVIEW QUESTIONS
+
+1. What is an Exception?
+
+An exception is an event that interrupts the normal flow of a program.
+
+2. Why Do We Use Exception Handling?
+
+To prevent abnormal termination and handle errors safely.
+
+3. What is a try block?
+
+The try block contains code that may generate an exception.
+
+4. What is a catch block?
+
+The catch block handles exceptions generated in the try block.
+
+5. What is ArithmeticException?
+
+It occurs when an illegal arithmetic operation happens.
+
+Example:
+
+10 / 0
+
+6. What is ArrayIndexOutOfBoundsException?
+
+It occurs when an invalid array index is accessed.
+
+7. What is NullPointerException?
+
+It occurs when methods are called on null references.
+
+8. What is Multiple Catch?
+
+Multiple catch blocks allow handling different exceptions separately.
+
+9. Can a try block exist without catch?
+
+No (for now in our learning stage).
+
+10. What is the benefit of Exception Handling?
+
+- Prevents crashes
+- Improves reliability
+- Better user experience
+
+30 SECOND REVISION
+
+✅ Exception = Runtime Error
+
+✅ try = Risky Code
+
+✅ catch = Handles Error
+
+✅ ArithmeticException = Divide by Zero
+
+✅ ArrayIndexOutOfBoundsException = Invalid Index
+
+✅ NullPointerException = Null Reference
+
+✅ Multiple Catch = Handle Multiple Errors
+
+✅ Prevents Program Crash

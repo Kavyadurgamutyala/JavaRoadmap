@@ -1,0 +1,94 @@
+EXCEPTION HANDLING
+
+What is an Exception?
+
+An exception is an event that interrupts the normal flow of a program during execution.
+
+Why Exception Handling?
+
+Without handling:
+Program crashes.
+
+With handling:
+Program continues safely.
+
+try Block
+
+Contains risky code that may generate an exception.
+
+Example:
+
+try {
+
+    int result = 10 / 0;
+
+}
+
+catch Block
+
+Handles exceptions.
+
+Example:
+
+catch(Exception e){
+
+    System.out.println("Handled");
+
+}
+
+Common Exceptions
+
+1. ArithmeticException
+
+Occurs during illegal arithmetic operations.
+
+Example:
+
+10 / 0
+
+2. ArrayIndexOutOfBoundsException
+
+Occurs when accessing invalid array indexes.
+
+Example:
+
+arr[5]
+
+3. NullPointerException
+
+Occurs when accessing methods on null objects.
+
+Example:
+
+String s = null;
+
+s.length();
+
+Multiple Catch
+
+Used to handle different exceptions separately.
+
+Example:
+
+catch(ArrayIndexOutOfBoundsException e)
+
+catch(Exception e)
+
+Advantages
+
+1. Prevents application crash
+2. Improves reliability
+3. Better error handling
+4. Better user experience
+
+Programs Completed
+
+✅ ExceptionDemo.java
+
+✅ ArrayException.java
+
+✅ MultipleCatch.java
+
+One Line Revision
+
+Exception Handling prevents abnormal program termination and helps handle runtime errors gracefully.
