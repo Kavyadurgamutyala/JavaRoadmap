@@ -1,0 +1,78 @@
+HASHMAP
+
+What is HashMap?
+
+HashMap stores data in key-value pairs.
+
+Example:
+
+1 -> Kavya
+2 -> Rahul
+
+Why HashMap?
+
+1. Fast Data Retrieval
+2. Stores Key-Value Pairs
+3. Efficient Searching
+
+Syntax
+
+HashMap<Integer,String> map = new HashMap<>();
+
+Methods
+
+put()
+
+Adds data.
+
+Example:
+
+map.put(1,"Kavya");
+
+get()
+
+Retrieves value using key.
+
+Example:
+
+map.get(1);
+
+containsKey()
+
+Checks whether key exists.
+
+Example:
+
+map.containsKey(1);
+
+remove()
+
+Removes entry.
+
+Example:
+
+map.remove(1);
+
+size()
+
+Returns number of entries.
+
+Example:
+
+map.size();
+
+Advantages
+
+1. Fast Lookup
+2. Easy Data Storage
+3. Dynamic Size
+
+Programs Completed
+
+✅ HashMapDemo.java
+✅ StudentMap.java
+✅ EmployeeMap.java
+
+One Line Revision
+
+HashMap stores data in key-value pairs and provides fast retrieval using keys.

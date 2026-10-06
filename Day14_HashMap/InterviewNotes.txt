@@ -1,0 +1,57 @@
+INTERVIEW QUESTIONS
+
+1. What is HashMap?
+
+HashMap stores data in key-value pairs.
+
+2. Which package contains HashMap?
+
+java.util
+
+3. What is a Key?
+
+The unique identifier used to retrieve values.
+
+4. What is a Value?
+
+Data associated with a key.
+
+5. How do you insert data?
+
+put()
+
+6. How do you retrieve data?
+
+get(key)
+
+7. How do you check whether a key exists?
+
+containsKey()
+
+8. How do you remove data?
+
+remove(key)
+
+9. How do you find number of entries?
+
+size()
+
+10. Does HashMap allow duplicate keys?
+
+No.
+
+30 SECOND REVISION
+
+✅ Key-Value Pair
+
+✅ put()
+
+✅ get()
+
+✅ containsKey()
+
+✅ remove()
+
+✅ size()
+
+✅ Fast Retrieval
